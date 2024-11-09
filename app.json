@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "sell it",
+    "slug": "sell-it",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jackjayorg.sellit"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jackjayorg.sellit"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7789fdd4-0cc3-4dd5-920f-fccdc7978262"
+      }
+    },
+    "owner": "jackjay-org",
+    "updates": {
+      "url": "https://u.expo.dev/7789fdd4-0cc3-4dd5-920f-fccdc7978262"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
